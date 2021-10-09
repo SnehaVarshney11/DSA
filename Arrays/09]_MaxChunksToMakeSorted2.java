@@ -8,6 +8,7 @@ class MaxChunksToMakeSorted2 {
         
         int leftMax = Integer.MIN_VALUE;
         int count=0;
+        
         for(int i=0;i<arr.length;i++)
         {
             leftMax = Math.max(arr[i],leftMax);
