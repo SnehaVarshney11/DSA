@@ -1,4 +1,5 @@
-public class LongestPalindrome {
+import java.util.*;
+class LongestPalindrome {
     public int longestPalindrome(String s) {
         if(s == null || s.length()==0) return 0;
         
