@@ -1,4 +1,8 @@
+
 class ReverseLinkedListII {
+    class ListNode{
+        public ListNode next;
+    }
     public ListNode reverseBetween(ListNode head, int left, int right) {
         ListNode dummy = new ListNode();
         ListNode pre = dummy;
