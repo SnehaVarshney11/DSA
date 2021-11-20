@@ -2,14 +2,10 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-class TreeNode2{
+class TreeNode{
     int val;
     TreeNode left, right;
-    public TreeNode2(int item)
-    {
-        val = item;
-        left = right = null;
-    }
+    
 }
 
 class BinaryTreeLevelOrderTraversal {
